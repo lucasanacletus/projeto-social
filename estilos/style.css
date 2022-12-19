@@ -54,7 +54,7 @@ section#redes-sociais img{
     
 }
 section#redes-sociais{
-    text-align: right;
+    text-align: bottom; /* parei aqui 19:12 19-12 */
 }
 
 section#redes-sociais img:hover{
