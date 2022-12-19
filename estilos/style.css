@@ -23,7 +23,7 @@ main{
     position: relative;
     height: 100vh;
     
-    background-color: rgba(0, 128, 0, 0.288);
+    background-color: rgba(0, 128, 0, 0);
 }
 
 section#telefone{ /* fixa no meio da tela */
@@ -44,4 +44,21 @@ iframe#tela {
     width: 266px;
     height: 470px;
     box-shadow: black 1px 1px 1px 1px;
+}
+section#redes-sociais img{
+    width: 60px;
+    margin: 10px;
+
+    border-radius: 50%;/* botão fica redondo */
+    box-shadow: 5px 5px 10px black;
+    
+}
+section#redes-sociais{
+    text-align: center;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgb(0, 255, 34);
+    transform: -5px,-5px,10px;
+    transition: 0.1s, border .3s;
 }
