@@ -15,6 +15,7 @@ html,body{
 body{
     background: url('../imagens/fundo-madeira.jpg') no-repeat top center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -34,4 +35,13 @@ section#telefone{ /* fixa no meio da tela */
     height: 627px;
     width: 311px;       
     background: url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela {
+    position: relative;
+    top: 81.5px;
+    left: 23px;
+    width: 266px;
+    height: 470px;
+    box-shadow: black 1px 1px 1px 1px;
 }
