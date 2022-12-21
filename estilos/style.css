@@ -7,17 +7,18 @@
 }
 
 html,body{
-    height: 100vh;
+   height: 110vh;
     width: 100vw;
     background-color: black;
+
 }  
     
 body{
-    background: url('../imagens/fundo-satis_2.jpg') no-repeat top center;
-    background-size: cover;
-    background-attachment: ;
+    background: url('../imagens/fundo-satis_menor.jpg') repeat; /* no-repeat top center = imagem cheia */
+    background-size: ; /* para preencher tela usa=cover */
+    background-attachment:  ;
+    box-shadow: rgba(0, 0, 0, 0.671) 0.5px 0.5px .5px .5px;
 }
-
 
 main{
     position: relative;
@@ -45,9 +46,7 @@ iframe#tela {
     height: 470px;
     box-shadow: rgba(0, 0, 0, 0.432) 0.5px 0.5px .5px .5px;
 }
-section#redes-sociais img{
-    text-align: center;
-    
+section#redes-sociais img{    
     width: 40px;
     margin: 10px;
 
@@ -65,5 +64,5 @@ section#redes-sociais img:hover{
     transition: 0.1s, border .3s;
 }
 div{
-    text-align: center;
+    text-align: center; /* alinha botão centro topo tela */
 }
